@@ -1,1 +1,1 @@
-# jeztar-lyn.github.io
+# jeztar.github.io
