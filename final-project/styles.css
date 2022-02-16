@@ -346,4 +346,33 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-    
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++ */
+.table1{
+    display: flex;
+    justify-content: center;
+  }
+
+  .container{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin: 12px auto;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .d-flex{
+    display: flex;
+  }
+  .justify-content-end{
+    justify-content: flex-end;
+  }
+   table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+  } 
