@@ -69,19 +69,29 @@
                 </div>
                 
                 <!-- icon -->
-                <div class="sl-mid">
+                <div class="sl-mid" id="next">
                     <img src="img/running-color.png"height="300px" alt="running">
                     <div class="name-ac">
                         <p>RUNNING</p>
                     </div>
                 </div>
                 
+            
                 
-                <div class="sl-right">
+                <div class="sl-right" onclick="test();">
                     <img src="img/arrow-right-color.png"width="30px" alt="arrow-right">
                 </div>
             </div>
         </section>
+
+        <script>
+            function test(){
+                var html = "";
+                html = '<img src="img/jump-color.png"height="300px" alt="running">';
+                html += '<div class="name-ac"><p>RUNNING</p></div>';
+                $("#next").append(html);
+            }
+        </script>
 
 
         
