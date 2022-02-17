@@ -1,0 +1,47 @@
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(90deg,#eca9f5 0%,#0074b9 95%);
+    color: white;
+}
+
+.First-git {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #cf5291;
+    padding: 10px;
+}
+
+
+.final-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #cf5291;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: #ffc2c2;
+}
+
+.btn {
+    background: #cf5291;
+    border: none;
+    border-radius: 60px;
+    color: white;
+    width: 200px;
+    padding: 10px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
